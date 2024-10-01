@@ -226,12 +226,12 @@ main .sobre-nosotros {
 .servicio-cont {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: justify;
 }
 
 .servicio-ind {
     width: 28%;
-    text-align: center;
+    text-align: justify;
 }
 
 .servicio-ind {
@@ -244,7 +244,7 @@ main .sobre-nosotros {
 
 .servicio-ind p {
     font-weight: 300;
-    text-align: center;
+    text-align: justify;
 }
 
 /* footer */
