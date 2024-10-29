@@ -35,7 +35,11 @@
 		
 		<style>
 			body {
-			background-image:url(../assets/img/logo_de_empresa.PNG);
+			background-image:url(../assets/img/Galaxy.avif);
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+			width: 100vw;
 			}
 		</style>
 		
