@@ -6,7 +6,6 @@ $id = $mysqli->real_escape_string($_GET['id']);
 
 $sql = "SELECT nombre, Apellido, Identificacion, Fecha_de_Nacimiento, Correo FROM usuarios WHERE id=$id LIMIT 1";
 $resultado = $mysqli->query($sql);
-
 $fila = $resultado->fetch_assoc();
 
 

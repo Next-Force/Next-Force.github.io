@@ -35,7 +35,7 @@
 		
 		<style>
 			body {
-			background: white;
+			background-image:url(../assets/img/logo_de_empresa.PNG);
 			}
 		</style>
 		
