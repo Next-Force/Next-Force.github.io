@@ -50,6 +50,9 @@
 				<a href="nuevo.php" class="btn btn-primary">Registrar</a>
 			</div>
 			
+			<div class="row">
+				<a href="index.html" class="btn btn-primary">Devolverse</a>
+			</div>
 			
 			<table id="tabla" class="display" style="width:100%">
 				<thead>
@@ -74,6 +77,7 @@
 							<td><a href="editar.php?id=<?php echo $fila['id']; ?>" class="btn btn-warning">Editar</a> </td>
 							<td><a href="eliminar.php?id=<?php echo $fila['id']; ?>" class="btn btn-danger">Eliminar</a> </td>
 						</tr>
+						
 					<?php } ?>
 				</tbody>
 			</table>
