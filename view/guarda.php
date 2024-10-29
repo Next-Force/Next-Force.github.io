@@ -1,6 +1,6 @@
 <?php
 	
-	require 'model/conexion.php';
+	require '../model/conexion.php';
 	
 	$nombre = $mysqli->real_escape_string($_POST['nombre']);
 	$Apellido = $mysqli->real_escape_string($_POST['Apellido']);

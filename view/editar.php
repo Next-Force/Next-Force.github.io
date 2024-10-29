@@ -1,6 +1,6 @@
 <?php
 
-require 'model/conexion.php';
+require '../model/conexion.php';
 
 $id = $mysqli->real_escape_string($_GET['id']);
 
@@ -22,7 +22,7 @@ $fila = $resultado->fetch_assoc();
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 
 	<title>Empresa</title>
 </head>
@@ -73,8 +73,8 @@ $fila = $resultado->fetch_assoc();
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="assets/js/jquery-3.4.1.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="../assets/js/jquery-3.4.1.min.js"></script>
+	<script src="../assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>

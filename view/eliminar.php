@@ -1,6 +1,6 @@
 <?php
 	
-	require 'model/conexion.php';
+	require '../model/conexion.php';
 	
 	$id = $mysqli->real_escape_string($_GET['id']);
 	

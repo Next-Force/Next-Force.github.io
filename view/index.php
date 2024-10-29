@@ -1,6 +1,6 @@
 <?php
 	
-	require 'model/conexion.php';
+	require '../model/conexion.php';
 	
 	$sql = "SELECT id, nombre, Apellido, Identificacion, Fecha_de_Nacimiento, Correo FROM usuarios WHERE activo=1";
 	$resultado = $mysqli->query($sql);
@@ -15,14 +15,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css">
+		<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/css/jquery.dataTables.min.css">
 		
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="assets/js/jquery-3.4.1.min.js" ></script>
-		<script src="assets/js/bootstrap.min.js" ></script>
-		<script src="assets/js/jquery.dataTables.min.js" ></script>
+		<script src="../assets/js/jquery-3.4.1.min.js" ></script>
+		<script src="../assets/js/bootstrap.min.js" ></script>
+		<script src="../assets/js/jquery.dataTables.min.js" ></script>
 		
 		<title>Empresa</title>
 		
