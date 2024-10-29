@@ -1,6 +1,6 @@
 <?php
 	
-	require '../model/conexion.php';
+	require '../conexion.php';
 	
 	$sql = "SELECT id, nombre, Apellido, Identificacion, Fecha_de_Nacimiento, Correo FROM usuarios WHERE activo=1";
 	$resultado = $mysqli->query($sql);
